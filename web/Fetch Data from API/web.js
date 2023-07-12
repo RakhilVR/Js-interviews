@@ -57,13 +57,15 @@ api_details()
         final_ouput.push(test, {"mostExpensive":test[19]})
         console.log(final_ouput);
 
+            const section = document.getElementById('show')
+           section.innerHTML = final_ouput
+
     })
     .catch((error) => {
         console.error("Error:", error);
     });
 
-    const section = document.getElementById('show')
-     section.innerHTML = final_ouput
+
 
 
 
