@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>2nd Challenge</title>
+    </head>
+    <body>
+        <h1>2nd challenge</h1>
+        <p>Current Epoch on Server: __EPOCH_TIME__</p>
+        <p id="localTime">Local time: __BROWSER_TIME_HERE__</p>
+        <script>
+     
+      const localTimeElement = document.getElementById('localTime');
+      const currentTime = new Date().toLocaleString();
+      localTimeElement.textContent = `Local time: ${currentTime}`;
+    </script>
+    </body>
+</html>
